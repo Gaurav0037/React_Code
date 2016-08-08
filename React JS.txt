@@ -1,0 +1,80 @@
+--------------------- ============ React JS ============ ----------------------------
+
+Node & Git 
+command prompt -- node -v
+
+ECMAScript vs Javascript -- difference -- (Officical name is ECMAScript)
+ECMA -- Standardization unit which creates Javascript (New ECMAscript 6)
+
+Single Page Applications -- 
+Transpiling -- To convert the code from ES6 to ES5.
+DOM -- Document Object Model -- An obj that is exposed by the browser, that leds Javascript to interact.
+Virtual DOM -- Same as DOM but in the memory, like if I receive input than rather writing into DM we can write in Virtual DOM
+JSX -- Java Script as XML
+
+Unidirectional Data Flow -- Data should flow in one direction
+View > Action > Dispatcher > Store > View 
+
+Project Setup 
+-------------
+Editor: VS Code/ Atom/ Sublime/ Any
+Node.js (ver 6 or above) -- Virtual Machine for JS Code (not a JS), it's allows us to run JS outside. It allows us to check
+our Java code.
+Modern Browsers
+NPM Packages (Node Package Manager)
+Starter Kit (certain tools that are required)
+
+First file we create is Package.jSon (it has all the details of our project)
+Dependencies -- without which our code won't run
+DevDependencies -- which we need to develope our code
+
+Starter Kit tools :- Google Chrome Plugins
+React Developer Tools & Redux DevTools
+Npm install & npm start
+
+React :- It's a Library, it helps you generate views. It helps to develope web components.
+--------
+
+Babel - It is a JavaScript Compiler, It convert code from ECMAS 6 to ECMAS 5
+
+Component based design :- Component can be made of sub components. Smallest entity is item component, using we can compose big components.
+-------------------------
+
+Tree Component :-
+Root Componenet - So there is a Root component and there could be multiple components inherited by it.
+App > Navgar, App> List, App> Carousel, App > Deals
+List> Item
+
+This component structure is pattern which is web Component
+
+Make a Component :- There were many Javascripts files in ES5 and we are changing it in ES6 to make only one file.
+
+ES6 import export 
+Javascript Modules 
+Each Js file is a silo (independent unit, can not talk to each other, it will have indiviual values and names).
+Modules can be imported and exported.
+
+Index.js
+import React from 'react';
+const App = function(){
+       return <div></div>
+}
+ export default App;
+
+
+   -- React vs ReactDom 
+
+   --   React library has now been split into two libraries: react and reactDom
+   --   ReactDom library know how to render the components to the DOM
+
+
+ReactDom.render(<App/>, document.getElementById('app));
+
+
+
+
+ Adding a component to the DOM
+import React and ReactDOM
+Create Component class
+
+When we import React :- When a component require a specific in the HTML page we will import ReactDOM there in the file.
