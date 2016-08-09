@@ -11,6 +11,7 @@ Single Page Applications -- Single page applications are the ones where in we do
 Transpiling -- To convert the code from ES6 to ES5.
 DOM -- Document Object Model -- An obj that is exposed by the browser, that leds Javascript to interact.
 Virtual DOM -- Same as DOM but in the memory, like if I receive input than rather writing into DM we can write in Virtual DOM
+React Libraries push our Virtual DOM to the DOM.
 JSX -- Java Script as XML
 
 Unidirectional Data Flow -- Data should flow in one direction
